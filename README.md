@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Getting p5 to work in CRA
+
+- allows for hot reloads
+- instance mode to build a canvas on the fly
+- es6 imports
+- ease of use for ts modules
+
 ## Available Scripts
 
 In the project directory, you can run:
