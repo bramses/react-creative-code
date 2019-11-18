@@ -1,6 +1,7 @@
 import React from 'react';
-import P5Init from './p5TestInit'
-import  TedTalk from './TedTalk';
+import P5Init from './p5TestInit';
+import Minuet from './Minuet';
+import PtsQuickstart from './PtsQuickstart';
 import {
   BrowserRouter as Router,
   Switch,
@@ -24,17 +25,24 @@ class App extends React.Component {
               <Link to="/p5-init">p5 init</Link>
             </li>
             <li>
-              <Link to="/ted-talks">ted talk</Link>
+              <Link to="/minuet">miunet</Link>
+            </li>
+            <li>
+              <Link to="/pts-quick-start">Pts Quickstart</Link>
             </li>
           </ul>
         </nav>
 
         <Switch>
-          <Route path="/p5-init">
+          <Route exact path="/p5-init">
             <P5Init />
           </Route>
-          <Route path="/ted-talks">
-            <TedTalk />
+          
+          <Route exact path="/minuet">
+            <Minuet />
+          </Route>
+          <Route exact path="/pts-quick-start">
+            <PtsQuickstart />
           </Route>
         </Switch>
       </div>

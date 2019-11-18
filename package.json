@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "canvas-sketch-util": "^1.10.0",
     "color": "^3.1.2",
     "d3": "^5.12.0",
     "nice-color-palettes": "^3.0.0",
     "p5": "^0.10.2",
+    "paper": "^0.12.3",
+    "pixi.js": "^5.2.0",
+    "pts": "^0.8.11",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-pts-canvas": "^0.2.4",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },

@@ -14,8 +14,6 @@ const sketch = (p) => {
 
     // Draw function
     p.draw = () => {
-        // TODO fix this
-        console.log('i be drawing')
         p.fill(new Color('#7743CE').alpha(0.5).lighten(0.2).mix(Color("black")).rgb().string());
         p.square(50, 50, 100);         
     }
